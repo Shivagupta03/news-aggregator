@@ -11,8 +11,8 @@ const Login = () => {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const data = await login(email, password);
-      localStorage.setItem('token', data.token);
+      // const data = await login(email, password);
+      // localStorage.setItem('token', data.token);
       navigate('/all-news');
     } catch (err) {
       setError('Invalid credentials');
