@@ -26,9 +26,9 @@ function App() {
           <Route
           path="/all-news"
           element={
-            <PrivateRoute>
+            
               <AllNews />
-            </PrivateRoute>
+          
           }
         />
           <Route path="/login" element={<Login />} />
