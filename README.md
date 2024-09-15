@@ -22,12 +22,4 @@ These instructions will help you set up the project on your local machine for de
 7. Navigate to the client directory and run `npm install` to install the necessary dependencies.
 8. Start the client by running `npm run dev`.
 
-## Usage
 
-Once the project is set up and running, you can view news articles from various sources on the client side.
-
-## Contributing
-
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
-
-Please make sure to update tests as appropriate.
